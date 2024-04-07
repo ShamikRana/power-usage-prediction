@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power Usage Prediction</title>
+</head>
+<body>
+    <h2>Enter Weather Conditions for Power Usage Prediction</h2>
+    <form action="/predict" method="post">
+        <label for="temperature">Temperature (°C):</label>
+        <input type="text" id="temperature" name="temperature"><br><br>
+        
+        <label for="humidity">Humidity (%):</label>
+        <input type="text" id="humidity" name="humidity"><br><br>
+        
+        <label for="dew_point">Dew Point (°C):</label>
+        <input type="text" id="dew_point" name="dew_point"><br><br>
+        
+        <label for="rain">Rain (mm):</label>
+        <input type="text" id="rain" name="rain"><br><br>
+        
+        <label for="snowfall">Snowfall (cm):</label>
+        <input type="text" id="snowfall" name="snowfall"><br><br>
+        
+        <label for="surface_pressure">Surface Pressure (HPa):</label>
+        <input type="text" id="surface_pressure" name="surface_pressure"><br><br>
+        
+        <label for="cloud_cover">Cloud Cover (%):</label>
+        <input type="text" id="cloud_cover" name="cloud_cover"><br><br>
+        
+        <label for="wind_speed">Wind Speed (km/h):</label>
+        <input type="text" id="wind_speed" name="wind_speed"><br><br>
+        
+        <label for="wind_direction">Wind Direction (0° is North):</label>
+        <input type="text" id="wind_direction" name="wind_direction"><br><br>
+        
+        <label for="soil_temperature">Soil Temperature (°C):</label>
+        <input type="text" id="soil_temperature" name="soil_temperature"><br><br>
+        
+        <label for="soil_moisture">Soil Moisture (m³/m³):</label>
+        <input type="text" id="soil_moisture" name="soil_moisture"><br><br>
+        
+        <label for="day_or_night">Day/Night:</label>
+        <input type="text" id="day_or_night" name="day_or_night"><br><br>
+        
+        <label for="sunshine_duration">Sunshine Duration (second):</label>
+        <input type="text" id="sunshine_duration" name="sunshine_duration"><br><br>
+        
+        <label for="direct_radiation">Direct Radiation (W/m²):</label>
+        <input type="text" id="direct_radiation" name="direct_radiation"><br><br>
+        
+        <label for="month">Month:</label>
+        <input type="text" id="month" name="month"><br><br>
+        
+        <label for="day">Date:</label>
+        <input type="text" id="day" name="day"><br><br>
+        
+        <label for="hour">Hour (0 to 24):</label>
+        <input type="text" id="hour" name="hour"><br><br>
+        
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
